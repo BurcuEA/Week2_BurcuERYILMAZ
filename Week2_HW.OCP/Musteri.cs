@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week2_HW.OCP
+namespace Week2.OCP
 {
     //Müşteri claas'ı gerekli değil andak Single Responsibility Prensibine uygun devam etmek amacıyla ayrı classlar ayrı görevler
     public class Musteri

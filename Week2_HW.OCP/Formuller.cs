@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week2_HW.OCP
+namespace Week2.OCP
 {
 
     //Mevcut olan Formul1Uygula ve Formul2Uygula classları diye düşnelim.

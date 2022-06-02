@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week2_HW.LSP
+namespace Week2.LSP
 {
     public abstract class Kus
     {        

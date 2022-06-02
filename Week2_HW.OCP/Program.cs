@@ -1,11 +1,8 @@
 ﻿// Open Closed Principle
 
-using Week2_HW.OCP;
-
-Console.WriteLine("Hello, World!");
+using Week2.OCP;
 
 Musteri m1 = new Musteri();
-
 
 //Formul1Uygula fm1 = new Formul1Uygula();
 Formul2Uygula fm2 = new Formul2Uygula();

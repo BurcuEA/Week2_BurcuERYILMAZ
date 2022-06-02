@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week2_HW.SRP
+namespace Week2.SRP
 {
     // Prop lar tanımlandı ve metodlar aynı classta tanımlanıp bir classın tek bir işten sorumlu olması kuralı çiğnendi..
     public class Yanlis_SRP

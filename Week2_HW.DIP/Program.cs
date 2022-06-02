@@ -1,6 +1,6 @@
 ﻿//Dependency Inversion Principle
 
-using Week2_HW.DIP;
+using Week2.DIP;
 
 Email m = new Email();
 m.Kime = "abc@gmail.com";

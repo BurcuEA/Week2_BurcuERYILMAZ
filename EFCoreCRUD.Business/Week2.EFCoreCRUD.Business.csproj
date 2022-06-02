@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Week2_HW.LSP\Week2_HW.LSP.csproj" />
+    <ProjectReference Include="..\EFCoreCRUD.DataAccess\Week2.EFCoreCRUD.DataAccess.csproj" />
+    <ProjectReference Include="..\EFCoreCRUD.Entities\Week2.EFCoreCRUD.Entities.csproj" />
   </ItemGroup>
 
 </Project>

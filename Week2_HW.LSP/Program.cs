@@ -2,7 +2,7 @@
 
 //Kus kKus = new Kus(); abstract class
 
-using Week2_HW.LSP;
+using Week2.LSP;
 
 Kus kKus = new Tavuk();
 //Console.WriteLine($"{kKus.AyakSayisi()}");

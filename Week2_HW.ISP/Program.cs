@@ -1,6 +1,6 @@
 ﻿// Interface Seggregeation Principle
 
-using Week2_HW.ISP;
+using Week2.ISP;
 
 PersonelMusteri pMusteri = new PersonelMusteri();
 pMusteri.Id = 1;

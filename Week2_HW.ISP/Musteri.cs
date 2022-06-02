@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Week2_HW.ISP
+namespace Week2.ISP
 {
     public interface IMusteri
     {

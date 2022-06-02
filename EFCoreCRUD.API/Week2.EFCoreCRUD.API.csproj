@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EFCoreCRUD.Business\EFCoreCRUD.Business.csproj" />
-    <ProjectReference Include="..\EFCoreCRUD.Entities\EFCoreCRUD.Entities.csproj" />
+    <ProjectReference Include="..\EFCoreCRUD.Business\Week2.EFCoreCRUD.Business.csproj" />
+    <ProjectReference Include="..\EFCoreCRUD.Entities\Week2.EFCoreCRUD.Entities.csproj" />
   </ItemGroup>
 
 </Project>

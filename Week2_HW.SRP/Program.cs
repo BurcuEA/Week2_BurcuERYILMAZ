@@ -1,6 +1,6 @@
 ﻿// Single Resposibility Principle
 
-using Week2_HW.SRP;
+using Week2.SRP;
 
 Urun r = new Urun();
 r.Adi = "Buzdolabı";
