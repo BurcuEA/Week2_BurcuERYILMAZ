@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Week2_HW.LSP\Week2_HW.LSP.csproj" />
+  </ItemGroup>
+
 </Project>
