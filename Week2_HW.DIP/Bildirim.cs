@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 namespace Week2.DIP
 {
 
-    public interface IMesaj : ISend
+    public interface IBildirim : ISend
     {
         string Icerik { get; set; }
     }
-    public interface ITelefon : IMesaj
+    public interface ITelefon : IBildirim
     {
         string TelNo { get; set; }
     }
-    public interface IAdres : IMesaj
+    public interface IAdres : IBildirim
     {
         string Kime { get; set; }
     }
@@ -70,15 +70,15 @@ namespace Week2.DIP
     //Dependency Inversion Principle
     public class Bildirim
     {
-        private IMesaj _mesaj;
-        public Bildirim(IMesaj mesaj)
+        private IBildirim _bildirim;
+        public Bildirim(IBildirim bildirim)
         {
-            _mesaj = mesaj;
+            _bildirim = bildirim;
         }
 
         public string SendBildirim()
         {
-            return _mesaj.Send();
+            return _bildirim.Send();
         }
     }
 }

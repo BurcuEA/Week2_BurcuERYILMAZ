@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Week2.OCP
 {
-    //Müşteri claas'ı gerekli değil andak Single Responsibility Prensibine uygun devam etmek amacıyla ayrı classlar ayrı görevler
+    //Müşteri class'ı gerekli değil andak Single Responsibility Prensibine uygun devam etmek amacıyla ayrı classlar ayrı görevler
     public class Musteri
     {
         public int Id { get; set; }

@@ -14,7 +14,6 @@ namespace Week2.LSP
         }
         //public abstract string ses();
         public abstract string Ses();
-
     }
 
     public interface IUc

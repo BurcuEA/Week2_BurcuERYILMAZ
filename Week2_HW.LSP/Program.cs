@@ -9,11 +9,15 @@ Kus kKus = new Tavuk();
 Console.WriteLine($"Tavuk----{kKus.Ses()}");
 Console.WriteLine($"{kKus.Yuru()}");
 
+Console.WriteLine();
+
 kKus = new Ordek();
 Console.WriteLine($"Ördek----{kKus.Ses()}");
 Console.WriteLine($"{kKus.Yuru()}");
 //Console.WriteLine($"{kKus.Uc}");
 Console.WriteLine($"{((Ordek)kKus).Uc()}");
+
+Console.WriteLine();
 
 kKus = new Papagan();
 Console.WriteLine($"Papağan----{kKus.Ses()}");

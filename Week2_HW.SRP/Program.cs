@@ -7,6 +7,8 @@ r.Adi = "Buzdolabı";
 r.Marka = "Arçelik";
 Console.WriteLine($"Yeni Ürün : {r.Adi} - {r.Marka}");
 
+Console.WriteLine();
+
 UrunHesap rHes = new UrunHesap();
 rHes.OranUygula(3M,5);
 rHes.KesintiUygula(10M,20M);
