@@ -24,3 +24,5 @@ cl.Name = "Sude";
 cl.Surname = "Yılmaz";
 cl.Unvan = "Yazılım Uzmanı";
 cl.GorevYap(cl.Unvan);
+
+// NOT 
