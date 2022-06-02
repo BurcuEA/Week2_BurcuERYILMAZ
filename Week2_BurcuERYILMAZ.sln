@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.EFCoreCRUD.Business",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2.EFCoreCRUD.API", "EFCoreCRUD.API\Week2.EFCoreCRUD.API.csproj", "{BD1FD407-D995-4FED-9615-85B8D8650485}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2.POLY", "Week2.POLY\Week2.POLY.csproj", "{D9B4AD64-1C06-47B3-870E-C08600BA944E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{BD1FD407-D995-4FED-9615-85B8D8650485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD1FD407-D995-4FED-9615-85B8D8650485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD1FD407-D995-4FED-9615-85B8D8650485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B4AD64-1C06-47B3-870E-C08600BA944E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B4AD64-1C06-47B3-870E-C08600BA944E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B4AD64-1C06-47B3-870E-C08600BA944E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B4AD64-1C06-47B3-870E-C08600BA944E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
